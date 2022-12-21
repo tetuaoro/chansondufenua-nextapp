@@ -21,6 +21,7 @@ export default function Home() {
     },
     message: {
       padding: "1rem",
+      textAlign: "center",
     },
     logo: {
       textAlign: "center",
@@ -40,8 +41,11 @@ export default function Home() {
           <Image src={logo} alt="Logo de chanson du fenua." />
         </div>
         <p style={styles.message}>
-          Chanson du fenua est actuelement en maintenance pendant environ 6 mois à compter du 10 décembre 2022. Vous pouvez nous contacter par messagerie électronique{" "}
-          <a style={{color: "black"}} href="mailto:contact@rao-nagos.pf">ici</a>.
+          Chanson du fenua est actuelement en maintenance pendant environ 6 mois à compter du 10 décembre 2022. Vous pouvez nous contacter par messagerie électronique,{" "}
+          <a style={{ color: "black" }} href="mailto:contact@rao-nagos.pf">
+            contact@rao-nagos.pf
+          </a>
+          .
         </p>
       </div>
     </main>
